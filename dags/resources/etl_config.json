@@ -1,0 +1,21 @@
+{
+    "mysql_conn_id": "mysql_conn",
+    "postgres_conn_id": "postgres_conn",
+    "target_schema": "etl_schema",
+    "tables": [
+      "table1",
+      "table2",
+      "table3",
+      "table4",
+      "table5"
+    ],
+    "email": {
+      "on_failure": "gian.antariksa@gmail.com",
+      "on_retry": "gian.antariksa@gmail.com"
+    },
+    "retry_policy": {
+      "retries": 1,
+      "retry_delay_minutes": 5
+    }
+  }
+  
